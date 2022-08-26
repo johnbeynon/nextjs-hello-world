@@ -3,7 +3,7 @@ set -e
 echo "Yarn Version:"
 yarn -v
 
-yarn set version 3.0.0
+yarn set version stable
 
 yarn -v
 
