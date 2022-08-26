@@ -3,7 +3,7 @@ services:
   name: next-js
   env: node
   plan: free
-  buildCommand: yarn; yarn build
+  buildCommand: bin/render-build.sh
   startCommand: yarn start
   envVars:
   - key: NODE_ENV
