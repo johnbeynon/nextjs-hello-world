@@ -3,7 +3,7 @@ services:
   name: next-js
   env: node
   plan: starter
-  buildCommand: bin/render-build.sh
+  buildCommand: yarn set version stable; yarn --version; node --version
   startCommand: yarn start
   envVars:
   - key: NODE_ENV
