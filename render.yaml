@@ -3,7 +3,7 @@ services:
   name: next-js
   env: node
   plan: starter
-  buildCommand: yarn set version https://repo.yarnpkg.com/3.1.0/packages/yarnpkg-cli/bin/yarn.js; yarn --version; node --version
+  buildCommand: yarn set version stable; yarn --version; node --version
   startCommand: yarn start
   envVars:
   - key: NODE_ENV
