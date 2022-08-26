@@ -1,11 +1,11 @@
 set -e
 
 echo "Yarn Version:"
-yarn -v
+yarn --version
 
-yarn set version 3
+yarn set version stable
 
-yarn -v
+yarn --version
 
 yarn
 yarn build
