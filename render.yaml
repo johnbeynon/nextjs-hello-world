@@ -2,7 +2,7 @@ services:
 - type: web
   name: next-js
   env: node
-  plan: free
+  plan: starter
   buildCommand: bin/render-build.sh
   startCommand: yarn start
   envVars:
